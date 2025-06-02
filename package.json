@@ -20,6 +20,7 @@
         "eslint-config-next": "15.3.3",
         "i18next": "^23.16.8",
         "next": "15.3.3",
+        "next-intl": "^4.1.0",
         "ni18n": "^1.1.0",
         "react": "19.1.0",
         "react-animate-height": "^3.2.3",
