@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 import { IRootState } from '@/store';
 import { toggleTheme, toggleSidebar, toggleRTL } from '@/store/themeConfigSlice';
-import Dropdown from '@/components/dropdown';
 import IconMenu from '@/components/icon/icon-menu';
 import IconCalendar from '@/components/icon/icon-calendar';
 import IconEdit from '@/components/icon/icon-edit';
@@ -248,7 +247,7 @@ const Header = () => {
                             )}
                         </div>
                         <div className="dropdown shrink-0">
-                            <Dropdown
+                            {/* <Dropdown
                                 offset={[0, 8]}
                                 placement={`${isRtl ? 'bottom-start' : 'bottom-end'}`}
                                 btnClassName="block p-2 rounded-full bg-white-light/40 dark:bg-dark/40 hover:text-primary hover:bg-white-light/90 dark:hover:bg-dark/60"
@@ -273,10 +272,10 @@ const Header = () => {
                                         );
                                     })}
                                 </ul>
-                            </Dropdown>
+                            </Dropdown> */}
                         </div>
                         <div className="dropdown shrink-0">
-                            <Dropdown
+                            {/* <Dropdown
                                 offset={[0, 8]}
                                 placement={`${isRtl ? 'bottom-start' : 'bottom-end'}`}
                                 btnClassName="block p-2 rounded-full bg-white-light/40 dark:bg-dark/40 hover:text-primary hover:bg-white-light/90 dark:hover:bg-dark/60"
@@ -328,10 +327,10 @@ const Header = () => {
                                         </li>
                                     )}
                                 </ul>
-                            </Dropdown>
+                            </Dropdown> */}
                         </div>
                         <div className="dropdown shrink-0">
-                            <Dropdown
+                            {/* <Dropdown
                                 offset={[0, 8]}
                                 placement={`${isRtl ? 'bottom-start' : 'bottom-end'}`}
                                 btnClassName="relative block p-2 rounded-full bg-white-light/40 dark:bg-dark/40 hover:text-primary hover:bg-white-light/90 dark:hover:bg-dark/60"
@@ -402,10 +401,10 @@ const Header = () => {
                                         </li>
                                     )}
                                 </ul>
-                            </Dropdown>
+                            </Dropdown> */}
                         </div>
                         <div className="dropdown flex shrink-0">
-                            <Dropdown
+                            {/* <Dropdown
                                 offset={[0, 8]}
                                 placement={`${isRtl ? 'bottom-start' : 'bottom-end'}`}
                                 btnClassName="relative group block"
@@ -451,7 +450,7 @@ const Header = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </Dropdown>
+                            </Dropdown> */}
                         </div>
                     </div>
                 </div>
